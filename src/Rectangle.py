@@ -19,8 +19,3 @@ class Rectangle(Figure):
     @property
     def perimetr(self):
         return self.width * 2 + self.height * 2
-
-
-rectangle = Rectangle(width=5.54, height='')
-print(rectangle.get_area())
-print(rectangle.perimetr)

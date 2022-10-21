@@ -7,5 +7,3 @@ class Figure:
 
     def get_area(self):
         pass
-
-

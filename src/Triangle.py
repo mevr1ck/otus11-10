@@ -21,15 +21,8 @@ class Triangle(Figure):
 
     def get_area(self):
         polu_perimetr = (self.a + self.b + self.c) / 2
-        s = (polu_perimetr * (polu_perimetr - self.a) * (polu_perimetr - self.b) * (polu_perimetr - self.c)) ** 0.5
-        return s
+        return (polu_perimetr * (polu_perimetr - self.a) * (polu_perimetr - self.b) * (polu_perimetr - self.c)) ** 0.5
 
     @property
     def perimetr(self):
-        p = self.a + self.b + self.c
-        return p
-
-
-triangle = Triangle(a=4, b=3, c=5)
-print(triangle.get_area())
-print(triangle.perimetr)
+        return self.a + self.b + self.c

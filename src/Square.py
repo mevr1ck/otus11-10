@@ -16,4 +16,3 @@ class Square(Figure):
     @property
     def perimetr(self):
         return self.a * 4
-
