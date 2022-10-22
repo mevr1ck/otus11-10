@@ -1,12 +1,12 @@
 import pytest
 import sys
 
-sys.path.insert(1, "../source")
+sys.path.insert(1, "../src")
 
-from source.Circle import Circle
-from source.Rectangle import Rectangle
-from source.Square import Square
-from source.Triangle import Triangle
+from src.Circle import Circle
+from src.Rectangle import Rectangle
+from src.Square import Square
+from src.Triangle import Triangle
 
 
 triangle_a = 3
