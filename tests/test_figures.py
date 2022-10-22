@@ -1,9 +1,13 @@
-from src.Triangle import Triangle
-from src.Square import Square
-from src.Rectangle import Rectangle
-from src.Circle import Circle
-from src.General import Figure
 import pytest
+import sys
+
+sys.path.insert(1, "../source")
+
+from source.Circle import Circle
+from source.Rectangle import Rectangle
+from source.Square import Square
+from source.Triangle import Triangle
+
 
 triangle_a = 3
 triangle_b = 4
